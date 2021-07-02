@@ -10,10 +10,9 @@ where we can create a account  where it can be used 24/7. we need to
 
 System Specifications
 Hardware Requirements:
-Processor : Intel Core i5 8th Gen
-Processor Speed : 2.7 GHz
+Processor : Intel Core i5 10th Gen
+Processor Speed : 2.11 GHz
 RAM : 8GB
-SSD : 256GB
 Hard Disk : 1TB
 Software Requirements:
 Operating System : Ubuntu 20.04
