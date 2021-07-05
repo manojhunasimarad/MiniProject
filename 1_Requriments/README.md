@@ -58,6 +58,6 @@ The application is written in C and no extra dependencies are required on the cl
 |LR02 |	Adding a new Patient details to the record	| HR01,HR02 |	TBD-S1 |
 |LR03	| Display all records that are present in the Folder| HR01,HR02	| TBD-S1|
 |LR04	| Update the record of Patient if mistake is made, using apointment number	| HR01,HR02 |	TBD-S1 |
-|LR05 |	Search a customer using room number |	HR01,HR02	| TBD-S1 |
-|LR06	 | Delete Customer Record from the file	| HR01,HR02	|TBD-S1 |
+|LR05 |	Search a Patient using room number |	HR01,HR02	| TBD-S1 |
+|LR06	 | Delete patient Record from the file	| HR01,HR02	|TBD-S1 |
 
