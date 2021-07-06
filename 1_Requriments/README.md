@@ -11,17 +11,17 @@ The Simple Hospital Management System provides wide range of benefit they are as
 
 # System Specifications
 ## Hardware Requirements:
-• Processor :Intel Core i5 10th Gen
-•Processor Speed : 2.11 GHz
-•RAM : 8GB
-•Hard Disk : 1TB
+* Processor :**Intel Core i5 10th Gen**
+* Processor Speed : **2.11 GHz**
+* RAM : **8GB**
+* Hard Disk : **1TB**
 
 ## Software Requirements:
-• Operating System : Ubuntu 20.04
-• Front-End : Microsoft Visual Studio Code
-• Programming Language : C
-• Display
-  Resolution : 1920 X 1080
+* Operating System : **Ubuntu 20.04**
+* Front-End : Microsoft **Visual Studio Code**
+* Programming Language : **C**
+* Display
+*  Resolution : **1920 X 1080**
 
 # Testing
 Software testing is a critical element of software quality assurance and represents the ultimate review of specification, design and code generation. The increasing visibility of software as a system element and the attendant “cost” associated with a software failure are motivating force for well planned, through testing.
