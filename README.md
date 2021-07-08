@@ -3,4 +3,4 @@
    [![CI](https://github.com/Feroz-Shaik-17/MiniProject/actions/workflows/main.yml/badge.svg)](https://github.com/Feroz-Shaik-17/MiniProject/actions/workflows/main.yml)
  
  #Gitinspector
- https://www.code-inspector.com/project/24712/score/svg
+ [](https://www.code-inspector.com/project/24712/score/svg)
