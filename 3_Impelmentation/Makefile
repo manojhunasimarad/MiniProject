@@ -43,7 +43,7 @@ DOCUMENTATION_OUTPUT = documentation/html
 
 #all:  $(BUILD_DIR) 
 #	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT)
-all:$(BUILD_DIR) 
+all:$(SRC)$(BUILD_DIR) 
 	gcc  $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
 run: all
