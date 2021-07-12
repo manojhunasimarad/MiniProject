@@ -41,8 +41,9 @@ DOCUMENTATION_OUTPUT = documentation/html
 # Makefile will not run target command if the name with file already exists. To override, use .PHONY
 .PHONY : all test coverage run clean documentation
 
-all: $(SRC) $(BUILD) $(INC)
-	gcc $(SRC) $(INC) -o $(PROJ_NAME).$(EXEC)
+all: $(SRC) $(BUILD_DIR) 
+	gcc $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
+
 #all:$(BUILD_DIR) $(SRC)
 #	gcc  $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
@@ -70,13 +71,13 @@ doc:
 	make -C ./documentation
 analyze: test memcheck staticcheck coverage sanitize_check
 
-staticcheck:
+staticcheck:$(BUILD_DIR)
 	cppcheck --enable=all -iunity .
 
-memcheck:
+memcheck: $(BUILD_DIR)
 	valgrind ./$(TEST_OUTPUT)
 
-sanitize_check:
+sanitize_check: $(BUILD_DIR)
 	gcc -fsanitize=address -fno-omit-frame-pointer $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
 
@@ -84,4 +85,4 @@ $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
 clean:
-	rm -rf $(BUILD_DIR) $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov
+	rm -rf  $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov

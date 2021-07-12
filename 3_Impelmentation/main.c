@@ -15,7 +15,7 @@ int main()
 {
    
     read();
-    int c,i,q;
+    int c;
     printf("Simple Hospital Management System\n");
     int m,n;
 //making out the pattern
@@ -49,7 +49,7 @@ int main()
 
         printf("**Enter your choice**\n\n1. Add Information\n2. View Information\n3. Search\n4. Edit Information\n5. Delete Information\n6. Exit\n\nOption=");
         scanf("%d",&c);//choice for option
-        fflush(stdin);//making it clear
+        // fflush(stdin);//making it clear
         if(c==1)//add
         {
             system("cls");
