@@ -85,4 +85,4 @@ $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
 clean:
-	rm -rf  $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov
+	rm -rf $(BUILD_DIR) $(DOCUMENTATION_OUTPUT) *.gcda *.gcno *.gcov
