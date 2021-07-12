@@ -6,4 +6,5 @@
 
  |code Inspector|
  |--------------|
- |[![Code Inspector](https://www.code-inspector.com/project/24712/status/svg)](https://www.code-inspector.com/project/24712/status/svg)|
+ |[![Code Inspector](https://www.code-inspector.com/project/24712/status/svg)](https://www.code-inspector.com/project/24712/status/svg)
+  [![Code Inspector](https://www.code-inspector.com/project/24712/score/svg)](https://www.code-inspector.com/project/24712/score/svg)|

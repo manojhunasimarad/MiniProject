@@ -41,9 +41,8 @@ DOCUMENTATION_OUTPUT = documentation/html
 # Makefile will not run target command if the name with file already exists. To override, use .PHONY
 .PHONY : all test coverage run clean documentation
 
-all: $(SRC) $(BUILD_DIR) 
-	gcc $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
-
+all: $(SRC) $(BUILD_DIR)
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
 #all:$(BUILD_DIR) $(SRC)
 #	gcc  $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
