@@ -21,7 +21,7 @@ struct ad
     char disease[30];
     int cabin,phone,age;
 } x[100];
- 
+
 void read();
 void add();
 void view();

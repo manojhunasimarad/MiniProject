@@ -9,11 +9,11 @@
  * 
  */
 
-#include<hms.h>
-int n,i,j=0,a=0,sum=0,g,flag,num;
-int main()
+#include "hms.h"
+ 
+int main()  
 {
-    
+   
     read();
     int c,i,q;
     printf("Simple Hospital Management System\n");
@@ -77,7 +77,7 @@ int main()
         }
         else if(c==6)
         {
-            write();
+            // write();
             return 0;
         }
         else
