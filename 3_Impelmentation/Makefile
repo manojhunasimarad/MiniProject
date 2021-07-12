@@ -42,7 +42,7 @@ DOCUMENTATION_OUTPUT = documentation/html
 .PHONY : all test coverage run clean documentation
 
 all: $(SRC) $(BUILD) $(INC)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).$(EXEC)
+	gcc $(SRC) $(INC) -o $(PROJ_NAME).$(EXEC)
 #all:$(BUILD_DIR) $(SRC)
 #	gcc  $(SRC) $(INC) -o $(call FixPath,$(BUILD_DIR)/$(PROJ_NAME).$(EXEC))
 
