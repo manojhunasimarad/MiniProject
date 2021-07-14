@@ -9,5 +9,5 @@ L_05 |	H_03 |	If user specifies wrong input to fetch information|	Wrong Input|	N
 L_06 |	H_03 |	If user specifies wrong option not present in list|	Wrong Input	|Invalid input , try again by using valid inputs	Invalid input , try again by using valid inputs|	PASS|
 L_07 |	H_04 |	Inputting wrong details of patients|Wrong Input	|Invalid Serial Try Again !!|Invalid Serial Try Again !!	|PASS|
 L_08 |	H_04 |	Deleting Patient record that does not exsist|	Wrong Patient input	|Invalid Serial number|	Invalid Serial number|PASS|
-L_09 |	H_05 |	View All patient record	enter the choice|	SUCCESS	|SUCCESS|	PASS|
-L_10 |	H_05 |	View record of all patients	enter the choice|	SUCCESS	|SUCCESS	PASS|
+L_09 |	H_05 |	View All patient record|	enter the choice|	SUCCESS	|SUCCESS|	PASS|
+L_10 |	H_05 |	View record of all patients	|enter the choice|	SUCCESS	|SUCCESS|	PASS|

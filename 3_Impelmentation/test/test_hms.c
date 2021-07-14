@@ -11,22 +11,23 @@ void tearDown()
 {
 }
 
-void test_read(void)
+int test_read()
 {
     // Can ommi the below intialization as it is done at the declaration time
     
+     
 }
-void test_add(void)
+int test_add()
 {
     
 }
 
-void test_view(void)
+int test_view()
 {
-    
+   
 
 }
-void test_search(void)
+int  test_search()
 {
 
 }
@@ -37,7 +38,7 @@ int main(void)
     UNITY_BEGIN();
 
     /* Run Test functions */
-    RUN_TEST(test_add);
+    RUN_TEST(test_read);
     RUN_TEST(test_add);
     RUN_TEST(test_view);
     RUN_TEST(test_search);
